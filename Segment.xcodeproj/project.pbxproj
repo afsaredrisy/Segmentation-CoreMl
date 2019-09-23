@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		948DBCA8F1B6AF229C87CC6E /* Pods_Segment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D4E5253173303DC2F2CF56 /* Pods_Segment.framework */; };
 		B55E8CCF22DEC603006E88AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55E8CCE22DEC603006E88AF /* AppDelegate.swift */; };
 		B55E8CD422DEC603006E88AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55E8CD222DEC603006E88AF /* Main.storyboard */; };
 		B55E8CD622DEC60C006E88AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55E8CD522DEC60C006E88AF /* Assets.xcassets */; };
@@ -21,9 +22,19 @@
 		B55E8CFE22DF300E006E88AF /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55E8CFD22DF300E006E88AF /* UIImage+Resize.swift */; };
 		B5A146DC22E6B64B00BDF34E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B5A146DB22E6B64B00BDF34E /* LICENSE */; };
 		B5A146DE22E6B64E00BDF34E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B5A146DD22E6B64E00BDF34E /* README.md */; };
+		BA4EE6212334FA7C0075F8AA /* frontcam_test_20sep.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BA4EE6202334FA7C0075F8AA /* frontcam_test_20sep.mlmodel */; };
+		BA4EE6232334FD930075F8AA /* CameraCapturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EE6222334FD930075F8AA /* CameraCapturer.swift */; };
+		BA4EE6252334FE710075F8AA /* HelperOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EE6242334FE710075F8AA /* HelperOne.swift */; };
+		BA4EE6272334FEEC0075F8AA /* SegmentationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EE6262334FEEC0075F8AA /* SegmentationDelegate.swift */; };
+		BA4EE62923350D090075F8AA /* ExampleVideoCapturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EE62823350D090075F8AA /* ExampleVideoCapturer.swift */; };
+		BA5A8D292338915E00337E18 /* own_trained_fc_128.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BA5A8D282338915E00337E18 /* own_trained_fc_128.mlmodel */; };
+		BA5A8D2B2338CCB900337E18 /* frontcam_test3_lesstrained.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BA5A8D2A2338CCB900337E18 /* frontcam_test3_lesstrained.mlmodel */; };
+		BAFD533723364C71007A17EA /* mobilenet_unet_imageop_128.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BAFD533623364C71007A17EA /* mobilenet_unet_imageop_128.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08D4E5253173303DC2F2CF56 /* Pods_Segment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Segment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0C8D54CC75CAB6067E9DFE /* Pods-Segment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segment.release.xcconfig"; path = "Target Support Files/Pods-Segment/Pods-Segment.release.xcconfig"; sourceTree = "<group>"; };
 		B55E8CCB22DEC603006E88AF /* Segment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Segment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55E8CCE22DEC603006E88AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B55E8CD322DEC603006E88AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +51,15 @@
 		B55E8CFD22DF300E006E88AF /* UIImage+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
 		B5A146DB22E6B64B00BDF34E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B5A146DD22E6B64E00BDF34E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BA4EE6202334FA7C0075F8AA /* frontcam_test_20sep.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = frontcam_test_20sep.mlmodel; sourceTree = "<group>"; };
+		BA4EE6222334FD930075F8AA /* CameraCapturer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraCapturer.swift; sourceTree = "<group>"; };
+		BA4EE6242334FE710075F8AA /* HelperOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperOne.swift; sourceTree = "<group>"; };
+		BA4EE6262334FEEC0075F8AA /* SegmentationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentationDelegate.swift; sourceTree = "<group>"; };
+		BA4EE62823350D090075F8AA /* ExampleVideoCapturer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleVideoCapturer.swift; sourceTree = "<group>"; };
+		BA5A8D282338915E00337E18 /* own_trained_fc_128.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = own_trained_fc_128.mlmodel; sourceTree = "<group>"; };
+		BA5A8D2A2338CCB900337E18 /* frontcam_test3_lesstrained.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = frontcam_test3_lesstrained.mlmodel; sourceTree = "<group>"; };
+		BAFD533623364C71007A17EA /* mobilenet_unet_imageop_128.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mobilenet_unet_imageop_128.mlmodel; sourceTree = "<group>"; };
+		C392A384FEC38ACC2805DC9B /* Pods-Segment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segment.debug.xcconfig"; path = "Target Support Files/Pods-Segment/Pods-Segment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,12 +67,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				948DBCA8F1B6AF229C87CC6E /* Pods_Segment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D539CB32270E62986E772C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08D4E5253173303DC2F2CF56 /* Pods_Segment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		970CC657207FD99E43CF921C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C392A384FEC38ACC2805DC9B /* Pods-Segment.debug.xcconfig */,
+				3E0C8D54CC75CAB6067E9DFE /* Pods-Segment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B55E8CC222DEC603006E88AF = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +98,8 @@
 				B55E8CCC22DEC603006E88AF /* Products */,
 				B5A146DB22E6B64B00BDF34E /* LICENSE */,
 				B5A146DD22E6B64E00BDF34E /* README.md */,
+				970CC657207FD99E43CF921C /* Pods */,
+				4D539CB32270E62986E772C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +114,7 @@
 		B55E8CCD22DEC603006E88AF /* Segment */ = {
 			isa = PBXGroup;
 			children = (
+				BA4EE6222334FD930075F8AA /* CameraCapturer.swift */,
 				B55E8CF222DF0668006E88AF /* Utils */,
 				B55E8CEF22DF061F006E88AF /* Checkpoints */,
 				B55E8CE322DEC9D4006E88AF /* Resources */,
@@ -81,6 +122,9 @@
 				B55E8CCE22DEC603006E88AF /* AppDelegate.swift */,
 				B55E8CE422DEC9FE006E88AF /* Controllers */,
 				B55E8CDA22DEC60C006E88AF /* Info.plist */,
+				BA4EE6242334FE710075F8AA /* HelperOne.swift */,
+				BA4EE6262334FEEC0075F8AA /* SegmentationDelegate.swift */,
+				BA4EE62823350D090075F8AA /* ExampleVideoCapturer.swift */,
 			);
 			path = Segment;
 			sourceTree = "<group>";
@@ -116,6 +160,10 @@
 			isa = PBXGroup;
 			children = (
 				B55E8CF022DF0650006E88AF /* Hair.mlmodel */,
+				BA4EE6202334FA7C0075F8AA /* frontcam_test_20sep.mlmodel */,
+				BA5A8D282338915E00337E18 /* own_trained_fc_128.mlmodel */,
+				BA5A8D2A2338CCB900337E18 /* frontcam_test3_lesstrained.mlmodel */,
+				BAFD533623364C71007A17EA /* mobilenet_unet_imageop_128.mlmodel */,
 			);
 			path = Checkpoints;
 			sourceTree = "<group>";
@@ -138,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B55E8CDD22DEC60C006E88AF /* Build configuration list for PBXNativeTarget "Segment" */;
 			buildPhases = (
+				782A94A0BEB2DE04D2A5C570 /* [CP] Check Pods Manifest.lock */,
 				B55E8CC722DEC603006E88AF /* Sources */,
 				B55E8CC822DEC603006E88AF /* Frameworks */,
 				B55E8CC922DEC603006E88AF /* Resources */,
@@ -200,19 +249,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		782A94A0BEB2DE04D2A5C570 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Segment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B55E8CC722DEC603006E88AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA4EE6232334FD930075F8AA /* CameraCapturer.swift in Sources */,
+				BAFD533723364C71007A17EA /* mobilenet_unet_imageop_128.mlmodel in Sources */,
 				B55E8CFC22DF2CDB006E88AF /* InferenceError.swift in Sources */,
 				B55E8CF122DF0650006E88AF /* Hair.mlmodel in Sources */,
 				B55E8CCF22DEC603006E88AF /* AppDelegate.swift in Sources */,
 				B55E8CF622DF2587006E88AF /* CVPixelBuffer+toUIImage.swift in Sources */,
 				B55E8CF822DF2BA9006E88AF /* UIImage+CoreML.swift in Sources */,
+				BA4EE6272334FEEC0075F8AA /* SegmentationDelegate.swift in Sources */,
+				BA4EE6252334FE710075F8AA /* HelperOne.swift in Sources */,
+				BA5A8D292338915E00337E18 /* own_trained_fc_128.mlmodel in Sources */,
 				B55E8CFE22DF300E006E88AF /* UIImage+Resize.swift in Sources */,
 				B55E8CEE22DEFDF5006E88AF /* HairSegmentController.swift in Sources */,
 				B55E8CEA22DEEE96006E88AF /* SegmentRootController.swift in Sources */,
+				BA4EE6212334FA7C0075F8AA /* frontcam_test_20sep.mlmodel in Sources */,
+				BA4EE62923350D090075F8AA /* ExampleVideoCapturer.swift in Sources */,
+				BA5A8D2B2338CCB900337E18 /* frontcam_test3_lesstrained.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,10 +438,11 @@
 		};
 		B55E8CDE22DEC60C006E88AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C392A384FEC38ACC2805DC9B /* Pods-Segment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X76N9BUQ59;
+				DEVELOPMENT_TEAM = 96D69N5Y99;
 				INFOPLIST_FILE = Segment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -367,17 +450,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.ben.segment.Segment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		B55E8CDF22DEC60C006E88AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0C8D54CC75CAB6067E9DFE /* Pods-Segment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X76N9BUQ59;
+				DEVELOPMENT_TEAM = 96D69N5Y99;
 				INFOPLIST_FILE = Segment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -385,7 +469,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.ben.segment.Segment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
